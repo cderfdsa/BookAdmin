@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="4dp"
+    app:contentPadding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/drawee_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="20dp"
+            android:paddingRight="40dp"
+            app:progressBarImage="@mipmap/icon_progress_bar"
+            app:roundAsCircle="false"
+            app:roundedCornerRadius="4dp"
+            app:viewAspectRatio="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/drawee_view"
+            android:layout_weight="1"
+            android:minHeight="150dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bl_books"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+            <!--<TextView-->
+            <!--android:id="@+id/bs_evaluate"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:text="@string/evaluation"/>-->
+            <TextView
+                android:id="@+id/bs_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/bs_publish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/bs_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

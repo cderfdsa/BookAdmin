@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<com.example.bookadmin.widget.BookToolBar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="?attr/colorPrimary"-->
+    <!--android:minHeight="?attr/actionBarSize"-->
+    <!--app:isShowSearchView="true">-->
+
+    <!--</com.example.bookadmin.widget.BookToolBar>-->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/Toolbar.MyStyle"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/tv_toolbar"
+            style="@style/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主页" />
+
+        <ImageView
+            android:id="@+id/search_mag_icon"
+            android:layout_width="@dimen/abc_dropdownitem_icon_width"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/icon_search" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <com.example.bookadmin.widget.expant.ExpandTabView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/expandtab_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </com.example.bookadmin.widget.expant.ExpandTabView>
+
+    <com.cjj.MaterialRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_below="@+id/expandtab_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:overlay="true"
+        app:progress_colors="@array/material_colors"
+        app:wave_color="@color/whitef"
+        app:wave_height_type="higher"
+        app:wave_show="true">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+    </com.cjj.MaterialRefreshLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_show_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="当前无网络连接"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_again"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_show_toast"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_stroke"
+            android:text="点击重试" />
+    </RelativeLayout>
+
+</RelativeLayout>

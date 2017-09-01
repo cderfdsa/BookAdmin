@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/location_layout"
+    android:background="?attr/colorPrimary"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/drawee_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fresco:actualImageScaleType="fitXY"
+        fresco:fadeDuration="300"
+        fresco:failureImageScaleType="fitXY"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/mainTitle"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/versionNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <!--<ImageView-->
+        <!--android:id="@+id/sp_bg"-->
+        <!--android:src="@mipmap/icon_splash"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!--<Button-->
+        <!--android:visibility="invisible"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="10sp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:id="@+id/sp_jump_btn"-->
+        <!--android:background="@drawable/btn_splash_shape"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:layout_marginTop="20dp"/>-->
+</RelativeLayout>

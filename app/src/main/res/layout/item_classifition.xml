@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="4dp"
+    app:contentPaddingBottom="5dp"
+    app:contentPaddingLeft="5dp"
+    app:contentPaddingRight="5dp"
+    app:contentPaddingTop="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/drawee_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                app:failureImage="@mipmap/icon_placeholder"
+                app:failureImageScaleType="centerInside"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:roundAsCircle="false"
+                app:roundedCornerRadius="4dp"
+                app:viewAspectRatio="1" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/bl_books"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/bookName" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/bs_evaluate"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="2dp"-->
+        <!--android:text="@string/evaluation" />-->
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

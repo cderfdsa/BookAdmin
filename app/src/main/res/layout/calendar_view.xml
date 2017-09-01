@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/calendar_header"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+
+        <RelativeLayout
+            android:id="@+id/calendar_last_month"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/txtDate" >
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bt_calendar_last" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/calendar_next_month"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txtDate" >
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bt_calendar_next" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="Jun 2016"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/calendar_week_header"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="日"
+            style="@style/calenderTitleStyle"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="一"
+            style="@style/calenderTitleStyle"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="二"
+            style="@style/calenderTitleStyle"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="三"
+            style="@style/calenderTitleStyle"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="四"
+            style="@style/calenderTitleStyle"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="五"
+            style="@style/calenderTitleStyle"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="六"
+            style="@style/calenderTitleStyle"
+            />
+    </LinearLayout>
+
+    <com.example.bookadmin.widget.NoScrollGridview
+        android:id="@+id/calendar_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="7"
+        >
+    </com.example.bookadmin.widget.NoScrollGridview>
+</LinearLayout>

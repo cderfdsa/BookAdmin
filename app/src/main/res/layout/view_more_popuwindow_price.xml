@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:id="@+id/rlLowPrice"
+        style="@style/moreItem" >
+
+        <TextView
+            android:id="@+id/tvLowPrice"
+            style="@style/moreItemLeftText"
+            android:layout_alignParentLeft="true"
+            android:text="最低价格：" />
+
+        <EditText
+            android:id="@+id/etLowPrice"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginBottom="9dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_toLeftOf="@+id/tvLowUnit"
+            android:layout_toRightOf="@+id/tvLowPrice"
+            android:inputType="numberDecimal"
+            android:textColor="@color/app_custom_popup_view_list_text"
+            android:background="@drawable/textview_border" />
+
+        <TextView
+            android:id="@+id/tvLowUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:text="万元"
+            android:textColor="@color/app_custom_popup_view_list_text"
+            android:textSize="@dimen/appTextSizeFourteen" />
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/rlHighPrice"
+        style="@style/moreItem" >
+
+        <TextView
+            android:id="@+id/tvHighPrice"
+            style="@style/moreItemLeftText"
+            android:layout_alignParentLeft="true"
+            android:text="最高价格：" />
+
+        <EditText
+            android:id="@+id/etHighPrice"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginBottom="9dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_toLeftOf="@+id/tvHighUnit"
+            android:layout_toRightOf="@+id/tvHighPrice"
+            android:inputType="numberDecimal"
+            android:textColor="@color/app_custom_popup_view_list_text"
+            android:background="@drawable/textview_border" />
+
+        <TextView
+            android:id="@+id/tvHighUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:text="万元"
+            android:textColor="@color/app_custom_popup_view_list_text"
+            android:textSize="@dimen/appTextSizeFourteen" />
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvPriceBack"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="#5e5e5e"
+            android:textSize="@dimen/appTextSizeFourteen" />
+
+        <TextView
+            android:id="@+id/tvPriceFinish"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@color/app_btn_blue"
+            android:gravity="center"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="@dimen/appTextSizeFourteen" />
+    </LinearLayout>
+
+</LinearLayout>

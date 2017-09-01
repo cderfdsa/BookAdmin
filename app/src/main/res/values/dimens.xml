@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="expand_tab_item_height">45dp</dimen>
+    <dimen name="expand_tab_eara_height">380dp</dimen>
+    <dimen name="head_bar_height">45dp</dimen>
+
+    <dimen name="detail_backdrop_height">356dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+
+    <dimen name="buttonCornerSize">2.0dip</dimen>
+    <dimen name="dialog_round_radius">4.0dip</dimen>
+    <dimen name="smallButtonHeight">32.0dip</dimen>
+    <dimen name="smallButtonWidth">48.0dip</dimen>
+    <dimen name="normalButtonHeight">48.0dip</dimen>
+    <dimen name="normalButtonWidth">80.0dip</dimen>
+
+    <dimen name="basicPaddingSize">4.0dip</dimen>
+    <dimen name="inputEditTextMinHeight">32.0dip</dimen>
+    <dimen name="searchViewMinHeight">45dip</dimen>
+    <dimen name="smallPadding">5.0dip</dimen>
+    <dimen name="largePadding">16.0dip</dimen>
+    <dimen name="largerPadding">24.0dip</dimen>
+    <dimen name="largestPadding">32.0dip</dimen>
+    <dimen name="smallerPadding">3.0dip</dimen>
+    <dimen name="littlePadding">6.0dip</dimen>
+    <dimen name="middlePadding">10.0dip</dimen>
+    <dimen name="normalPadding">12.0dip</dimen>
+    <dimen name="footerPadding">11.0dip</dimen>
+    <dimen name="noPadding">0.0dip</dimen>
+
+    <dimen name="bigButtonTextSize">18.0dip</dimen>
+    <dimen name="normalButtonTextSize">16.0dip</dimen>
+    <dimen name="smallButtonTextSize">14.0dip</dimen>
+
+    <dimen name="num_sub_add_hei">40dp</dimen>
+    <dimen name="num_sub_add_wid">50dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="TitleBarHeight">53.0dp</dimen>
+    <dimen name="LargeTextSize">16.0dip</dimen>
+    <dimen name="main_tab_bar">49dip</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+
+    <!-- app (item多项，内容字体大小(appTextSizeNormal),标题字体大小(appTextSizeFourteen))-->
+    <dimen name="appTextSizeNormal">12sp</dimen>
+    <dimen name="appTextSizeThirteen">13sp</dimen>
+    <dimen name="appTextSizeFourteen">14sp</dimen>
+    <dimen name="appTextSizeFifteen">15sp</dimen>
+    <dimen name="app_cus_popuwindow_item_h">43dp</dimen>
+
+    <dimen name="historyscore_tb">10dp</dimen>
+</resources>

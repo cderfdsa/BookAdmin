@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">图书借阅</string>
+
+    <string name="bookselection">选书</string>
+    <string name="chat">聊聊</string>
+    <string name="bookborrow">借还书</string>
+    <string name="mime">我的</string>
+    <string name="search">推荐</string>
+    <string name="classification">主页</string>
+    <string name="sort">排序</string>
+    <string name="screen">筛选</string>
+    <string name="title_activity_reg">RegActivity</string>
+
+    <string name="menu_night_mode">Night mode</string>
+    <string name="menu_night_mode_system">Follow system</string>
+    <string name="menu_night_mode_day">Day (always)</string>
+    <string name="menu_night_mode_night">Night (always)</string>
+    <string name="menu_night_mode_auto">Auto</string>
+    <string name="no_contacts_permission">应用无权限读取通讯录</string>
+
+    <string name="logout">退出登录</string>
+    <string name="to_login">点击登录</string>
+
+    <string name="permission">权限(permission)</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+
+    <!-- -->
+    <string name="renew">续借</string>
+    <string name="returnBook">还书</string>
+    <string name="unlimited">不限</string>
+    <string name="toBorrow">待借</string>
+    <string name="capital">本</string>
+    <string name="stayStill">待还</string>
+    <string name="stayRenew">续借</string>
+    <string name="byDefault">默认</string>
+    <string name="circulPositive">借阅量正序</string>
+    <string name="praisePositive">好评正序</string>
+    <string name="latestPositive">最新正序</string>
+    <string name="pricePositive">价格正序</string>
+    <string name="noSorting">无排序条件</string>
+    <string name="borrowingSorting">借阅量排序</string>
+    <string name="wellReceivedOrder">好评排序</string>
+    <string name="theLatestSorting">最新排序</string>
+    <string name="thePriceSorted">价格排序</string>
+    <string name="noDeal">没有任何交易</string>
+    <string name="bookLendSuccess">图书借阅成功</string>
+    <string name="bookcaseSuccessful">书柜预约成功，确定还书吗？</string>
+    <string name="selectDate">请先选择日期</string>
+    <string name="filladdress">请填写地址</string>
+    <string name="selectTimeDate">请选择时间日期</string>
+    <string name="borrowedRecord">借阅记录</string>
+
+    <string name="shoppingCart">购物车</string>
+    <string name="editor">编辑</string>
+    <string name="checkAll">全选</string>
+    <string name="total">合计</string>
+    <string name="settlement">去结算</string>
+    <string name="delete">删除</string>
+    <string name="detailBorrowing">借阅</string>
+    <string name="goodsdetails">商品详情</string>
+    <string name="score">评分</string>
+    <string name="price">价格</string>
+    <string name="author">作者</string>
+    <string name="press">出版社</string>
+    <string name="introduction">简介</string>
+    <string name="subscribe">预约</string>
+    <string name="openArk">开柜</string>
+    <string name="personalLogin">个人登录</string>
+    <string name="enterUserName">用户名/手机号登录</string>
+    <string name="enterLoginPassword">请输入密码</string>
+    <string name="registeredAccount">注册账号</string>
+    <string name="forgotPassword">忘记密码</string>
+    <string name="locationI">我的位置</string>
+    <string name="userRegistration1">用户注册(1/2)</string>
+    <string name="userRegistration2">用户注册(2/2)</string>
+    <string name="phoneverification">手机验证</string>
+    <string name="nextStep">下一步</string>
+    <string name="countryRegion">国家或者地区</string>
+    <string name="china">中国</string>
+    <string name="enterPhonenumber">请输入常用手机号码</string>
+    <string name="enterRegPhonenumber">请输入注册手机号码</string>
+    <string name="verification">验 证</string>
+    <string name="pass1">修改密码(1/2)</string>
+    <string name="pass3">修改密码(2/2)</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="enterPassword">请输入密码</string>
+    <string name="newPass">输入新密码</string>
+    <string name="aginnewPass">确认新密码</string>
+    <string name="complete">完成</string>
+    <string name="enterCaptcha">请输入验证码</string>
+
+    <string name="ex_classification">分类</string>
+    <string name="ex_sorting">排序</string>
+    <string name="ex_screening">筛选</string>
+    <string name="goBorrow">去借书</string>
+    <string name="clickRenew">长按续借</string>
+    <string name="clickStill">长按待还</string>
+    <string name="bookingNumber">预约柜号</string>
+    <string name="makePassword">预约密码</string>
+    <string name="makeTime">预约时间</string>
+    <string name="login">登 录</string>
+
+    <string name="setUp">设置</string>
+    <string name="enterSearchContent">请输入搜索内容</string>
+    <string name="scarch">搜索</string>
+    <string name="location">地点：</string>
+    <string name="date">日期：</string>
+    <string name="time">时间：</string>
+    <string name="clickSelect">点击选择</string>
+    <string name="sure">确 定</string>
+    <string name="longPressRemove">长按去除</string>
+    <string name="bookName">书名</string>
+    <string name="evaluation">评价</string>
+    <string name="theme">主题</string>
+    <string name="bookTime">借书日</string>
+    
+    <string name="myorder">我的订单</string>
+    <string name="libraryorder">借书订单</string>
+    <string name="returnorder">还书订单</string>
+
+    <string name="title_alert">提示信息</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="summary_image">[图片]</string>
+    <string name="summary_voice">[语音]</string>
+    <string name="summary_video">[小视频]</string>
+    <string name="summary_file">[文件]</string>
+
+    <string name="chat_audio_too_short">录音过短，请重试</string>
+    <string name="chat_audio_too_long">录音过长，请重试</string>
+
+    <!--creategroup-->
+    <string name="title_create_group">创建群</string>
+    <string name="subtitle_create_group_name">群名称</string>
+    <string name="btn_add_member">添加群成员</string>
+    <string name="title_choose_group_members">选择联系人</string>
+    <string name="create_group_fail">创建群失败</string>
+    <string name="create_group_fail_because_wording">创建失败，群名含有敏感词</string>
+    <string name="create_group_succeed">创建群成功</string>
+    <string name="create_group_need_name">请输入群名称</string>
+
+    <string name="chat_setting_group_id">群组ID</string>
+    <string name="chat_setting_group_name">群名称</string>
+    <string name="chat_setting_group_add_opt">加群方式</string>
+    <string name="chat_setting_group_msg_alert">消息提醒</string>
+    <string name="chat_setting_group_introduce">群介绍</string>
+    <string name="chat_setting_group_all_accept">允许任何人加入</string>
+    <string name="chat_setting_group_all_reject">禁止加入</string>
+    <string name="chat_setting_group_auth">需群主审核</string>
+    <string name="chat_setting_quit">退出群</string>
+    <string name="chat_setting_dismiss">解散群</string>
+    <string name="chat_setting_add">申请加群</string>
+    <string name="chat_setting_group_member">群成员</string>
+    <string name="profile_chat">发送消息</string>
+    <string name="chat_setting_rev_notify">接收并提醒消息</string>
+    <string name="chat_setting_rev_not_notify">接收不提醒消息</string>
+    <string name="chat_setting_invite_error">邀请群成员失败</string>
+    <string name="chat_setting_no_rev">不接收消息</string>
+
+</resources>
